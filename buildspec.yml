@@ -3,4 +3,7 @@ phases:
     build:
      commands:
       - composer install
+artifacts:
+  files:
+    - '**/*'      
       
